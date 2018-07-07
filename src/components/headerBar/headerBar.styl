@@ -1,0 +1,32 @@
+@import '../../styles/varibles.styl'
+.header-bar
+  height $navBarHeight
+  display: flex
+  background:$bgColor
+  color: #ffffff;
+  line-height: $navBarHeight
+  .header-back
+    width: 64px
+    float:left
+    padding-left:10px
+    .icon-back:before
+      font-size: 30px
+  .header-search
+    flex: 1
+    background: #ffffff
+    border-radius: 5px
+    margin-top: 12px
+    padding-left: 20px
+    height 64px
+    color: #cccccc
+    line-height: 64px
+    .icon-search:before 
+      font-size: 40px
+    .placeholder 
+       padding-left: 10px
+  .header-city
+    width: 124px
+    float right
+    text-align: center
+ 
+
