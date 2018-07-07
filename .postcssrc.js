@@ -1,6 +1,4 @@
 const config = require('./config')
-
-// https://github.com/michael-ciniawsky/postcss-load-config
 module.exports = {
   "plugins": {
     "postcss-import": {},
