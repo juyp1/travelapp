@@ -9,17 +9,24 @@
   <div class="recomend-list">
     <div class="recomend-item border-bottom" v-for='item of recomendList' :key="item.id">
       <div class="recomend-img">
-        <img   class="recomend-img" :src="item.imgurl" alt="" srcset="">
+        <img class="recomend-img" :src="item.imgurl" alt="" srcset="">
       </div>
       <div class="recomend-info">
         <ul>
           <li class="recomend-info-title">{{item.title}}</li>
           <li class="recomend-info-desc">{{item.desc}}</li>
-          <li><em class="recomend-info-price-unt">￥</em><span class="recomend-info-price">{{item.price}}</span><em class="recomend-info-price-unts">起</em></li>
+          <li>
+           
+              <em class="recomend-info-price-unt">￥</em>
+              <span class="recomend-info-price">{{item.price}}</span>
+              <em class="recomend-info-price-unts">起</em>
+            
+        
+          </li>
         </ul>
-        </div>
+      </div>
     </div>
-    
+
   </div>
 
 </div>

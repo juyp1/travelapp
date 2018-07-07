@@ -35,8 +35,8 @@ export default {
           price: '88'
         }, {
           id: '0006',
-          title: '明日之城',
-          imgurl: 'http://img1.qunarzz.com/sight/p0/1804/c8/c88bb5e69c9a9c5ea3.img.jpg_200x200_740720ff.jpg',
+          title: '古北水镇天热温泉',
+          imgurl: 'http://img1.qunarzz.com/sight/p0/1510/3e/3e8e30a6ff5d1cb090.water.jpg_200x200_ec6ab319.jpg',
           desc: '浪漫和世界的共存浪漫和世界的共存浪漫和世界的共存',
           price: '324'
         }
