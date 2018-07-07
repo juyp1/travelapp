@@ -109,7 +109,10 @@ ol,
 menu {
   list-style: none
 }
-
+ul,
+li {
+  list-style: none
+}
 fieldset,
 img {
   border: 0
