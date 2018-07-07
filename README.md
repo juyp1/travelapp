@@ -1,6 +1,6 @@
 # travelapp
 
-> A Vue.js project
+> 携程App票务模仿
 
 ## Build Setup
 
