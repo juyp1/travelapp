@@ -1,4 +1,5 @@
  @import '../../styles/mixins.styl'
+ @import '../../styles/varibles.styl'
 .week 
   .weekend-title
     background: #f5f5f5
@@ -8,21 +9,17 @@
     line-height: 80px
   .product-info
     width: 100%
-    
     .product-img 
       width: 100%
     .product-deatil
-      padding-left: 24px
-      padding-right: 24px
-      padding-top: 24px;
-      padding-bottom: 24px;
+      padding: 24px
       .product-name
         font-size: 28px
         height 48px
         line-height 48px
-        color: #212121
+        color: $fontColor
         ellipsis()
       .product-desc
-        color: #616161;
+        color: $fontDescColor
         font-size: 24px;
         line-height: 42px;
