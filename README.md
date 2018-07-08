@@ -1,6 +1,6 @@
 # travelapp
 
-> 携程App票务模仿
+> 去哪儿App票务模仿
 
 ## Build Setup
 

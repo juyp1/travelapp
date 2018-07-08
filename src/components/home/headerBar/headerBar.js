@@ -10,5 +10,10 @@ export default {
     return {
 
     };
+  },
+  methods: {
+    gocity () {
+      this.$router.push('/city');
+    }
   }
 };
