@@ -1,3 +1,8 @@
 export default {
-  name: 'alphabetCity'
+  name: 'alphabetCity',
+  props: {
+    cities: {
+      type: Object
+    }
+  }
 };
