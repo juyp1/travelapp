@@ -2,12 +2,14 @@ import headerBar from '../../components/headerBar/headerBar.vue';
 import awesomeSwiper from '../../components/awesome-swiper/awesome-swiper.vue';
 import icons from '../../components/icons/icons.vue';
 import recommend from '../../components/recommend/recommend.vue';
+import weekend from '../../components/weekend/weekend.vue';
 export default {
   components: {
     'headerBar': headerBar,
     'awesomeSwiper': awesomeSwiper,
     'icons': icons,
-    'recommend': recommend
+    'recommend': recommend,
+    'weekend': weekend
   },
   data () {
     return {
