@@ -1,8 +1,8 @@
-import headerBar from '../../components/headerBar/headerBar.vue';
-import awesomeSwiper from '../../components/awesome-swiper/awesome-swiper.vue';
-import icons from '../../components/icons/icons.vue';
-import recommend from '../../components/recommend/recommend.vue';
-import weekend from '../../components/weekend/weekend.vue';
+import headerBar from '../../components/home/headerBar/headerBar.vue';
+import awesomeSwiper from '../../components/home/awesome-swiper/awesome-swiper.vue';
+import icons from '../../components/home/icons/icons.vue';
+import recommend from '../../components/home/recommend/recommend.vue';
+import weekend from '../../components/home/weekend/weekend.vue';
 import axios from 'axios';
 export default {
   components: {
