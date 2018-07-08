@@ -18,7 +18,7 @@
 
     </div>
     <div class="area" v-for="(item,key) of cities">
-      <div class="title border-topbottom" :key="key">{{key}}</div>
+      <div class="title border-topbottom" :key="key" :ref="key">{{key}}</div>
       <ul class="item-list">
         <li class="item border-bottom" v-for="inneritem in item " :key="inneritem.id">{{inneritem.name}}</li>
       </ul>

@@ -1,6 +1,6 @@
-<div >
+<div>
   <header-bar></header-bar>
   <search-city></search-city>
-  <list-city :cities='cities' :hotCities='hotCities'></list-city>
-  <alphabet-city :cities='cities' ></alphabet-city>
+  <list-city :cities='cities' :hotCities='hotCities' :letter='letter'></list-city>
+  <alphabet-city :cities='cities' @change='handleLetterChange'></alphabet-city>
 </div>

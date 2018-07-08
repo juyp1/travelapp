@@ -1,4 +1,4 @@
 <ul class="list">
-  <li class="item" v-for="(item,key) of cities">{{key}}</li>
+  <li class="item" v-for="item of letters" :ref="item" @click="handleLetterClick" @touchstart="handleTouchStart" @touchmove="handleTouchMove" @touchend="handleTouchEnd">{{item}}</li>
  
 </ul>

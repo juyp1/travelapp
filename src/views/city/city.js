@@ -14,7 +14,8 @@ export default {
   data () {
     return {
       cities: {},
-      hotCities: []
+      hotCities: [],
+      letter: ''
     };
   },
   methods: {
@@ -27,6 +28,9 @@ export default {
         this.cities = data.cities;
         this.hotCities = data.hotCities;
       }
+    },
+    handleLetterChange (e) {
+      this.letter = e;
     }
   },
   mounted () {
