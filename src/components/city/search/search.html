@@ -1,5 +1,11 @@
-<div class="search">
-  
-    <input type="text" class="search-input"/>
-   
+<div>
+    <div class="search">
+        <input type="text" class="search-input" v-model="keyword"/>
+    </div>
+    <div class="search-content" ref="search" v-show ="keyword">
+        <ul>
+            <li v-for= "item of list" class="search-item border-bottom">{{item.name}}</li>
+            <li v-show ='list.length==0' class="search-item">没有匹配数据</li>
+        </ul>
+    </div>
 </div>
