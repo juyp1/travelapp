@@ -9,7 +9,11 @@ export default {
     };
   },
   activated () {
+    console.log('scroll');
     window.addEventListener('scroll', this.handlesSroll);
+  },
+  deactivated () {
+    window.removeEventListener('scroll', this.handlesSroll);
   },
   methods: {
     back () {
