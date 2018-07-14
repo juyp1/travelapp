@@ -1,3 +1,4 @@
+
 export default {
   name: 'headerBar',
   data () {
@@ -31,6 +32,9 @@ export default {
       } else {
         this.showAbs = false;
       }
+    },
+    handleIndex () {
+      this.$router.push('/');
     }
   }
 };

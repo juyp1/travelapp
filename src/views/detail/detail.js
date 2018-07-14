@@ -1,12 +1,14 @@
 import gallary from '../../components/common/gallary/gallary.vue';
 import HeaderBar from '../../components/detail/handerBar/headerBar.vue';
 import DetailList from '../../components/detail/list/list.vue';
+import FadeAnimation from '../../components/detail/fadeanimation/fadeanimation.vue';
 export default {
   name: 'Detail',
   components: {
     'HeaderBar': HeaderBar,
     'gallary': gallary,
-    'DetailList': DetailList
+    'DetailList': DetailList,
+    'FadeAnimation': FadeAnimation
   },
   data () {
     return {

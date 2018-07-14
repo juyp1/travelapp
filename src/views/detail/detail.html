@@ -1,12 +1,14 @@
 <div>
   <header-bar></header-bar>
   <div class="warrper" @click='handleGallaryShow'>
-     <img src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_600x330_f922b488.jpg" alt="" class="detail-pic">
+    <img src="http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_600x330_f922b488.jpg" alt="" class="detail-pic">
   </div>
-  <gallary :swiperList='swiperList' :showgallary='isShowGallary' @close='handleClose'></gallary>
+  <fade-animation>
+    <gallary :swiperList='swiperList' :showgallary='isShowGallary' @close='handleClose'></gallary>
+  </fade-animation>
   <div class="content">
     <detail-list :list='list'></detail-list>
   </div>
 
- 
+
 </div>
